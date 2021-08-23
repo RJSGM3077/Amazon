@@ -3,7 +3,7 @@
 <suite name="testSuite" verbose="2" parallel="methods" thread-count="2" >
 <test name="testCase">
 <classes>
-<class name="testNG.Parallelrun"></class>
+<class name="testNG.ExtentReport"></class>
 </classes>
 </test>
 </suite>

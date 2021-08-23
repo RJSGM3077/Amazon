@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="testSuite" duration-ms="7350" started-at="2021-07-25T18:11:52 EDT" finished-at="2021-07-25T18:11:59 EDT">
+  <suite name="Default suite" duration-ms="5609" started-at="2021-08-21T12:34:23 EDT" finished-at="2021-08-21T12:34:29 EDT">
     <groups>
     </groups>
-    <test name="testCase" duration-ms="7350" started-at="2021-07-25T18:11:52 EDT" finished-at="2021-07-25T18:11:59 EDT">
-      <class name="testNG.Parallelrun">
-        <test-method status="PASS" signature="openBing()[pri:0, instance:testNG.Parallelrun@59906517]" name="openBing" duration-ms="6259" started-at="2021-07-25T18:11:52 EDT" finished-at="2021-07-25T18:11:58 EDT">
+    <test name="Default test" duration-ms="5609" started-at="2021-08-21T12:34:23 EDT" finished-at="2021-08-21T12:34:29 EDT">
+      <class name="testNG.ExtentReport">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testNG.ExtentReport@23fe1d71]" name="launchBrowser" is-config="true" duration-ms="2753" started-at="2021-08-21T12:34:20 EDT" finished-at="2021-08-21T12:34:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="openBing()[pri:0, instance:testNG.ExtentReport@23fe1d71]" name="openBing" duration-ms="358" started-at="2021-08-21T12:34:23 EDT" finished-at="2021-08-21T12:34:24 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBing -->
-        <test-method status="PASS" signature="openGoogle()[pri:0, instance:testNG.Parallelrun@59906517]" name="openGoogle" duration-ms="7277" started-at="2021-07-25T18:11:52 EDT" finished-at="2021-07-25T18:11:59 EDT">
+        <test-method status="PASS" signature="openGoogle()[pri:0, instance:testNG.ExtentReport@23fe1d71]" name="openGoogle" duration-ms="1219" started-at="2021-08-21T12:34:24 EDT" finished-at="2021-08-21T12:34:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGoogle -->
-      </class> <!-- testNG.Parallelrun -->
-    </test> <!-- testCase -->
-  </suite> <!-- testSuite -->
+        <test-method status="PASS" signature="openWikipiedia()[pri:0, instance:testNG.ExtentReport@23fe1d71]" name="openWikipiedia" duration-ms="4002" started-at="2021-08-21T12:34:25 EDT" finished-at="2021-08-21T12:34:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWikipiedia -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testNG.ExtentReport@23fe1d71]" name="closeBrowser" is-config="true" duration-ms="1515" started-at="2021-08-21T12:34:29 EDT" finished-at="2021-08-21T12:34:30 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNG.ExtentReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
